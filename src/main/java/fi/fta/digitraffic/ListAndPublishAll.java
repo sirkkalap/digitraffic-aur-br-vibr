@@ -24,6 +24,7 @@ public class ListAndPublishAll
         int count=0;
         for ( S3ObjectSummary summary : S3Objects.withPrefix(s3, bucket_name, prefix) ) {
             count++;
+            // debug run (normal run takes about 1 hour) if (count > 100) System.exit(1);
             System.out.println(String.format("'%s'", summary.getKey()));
         }
 
