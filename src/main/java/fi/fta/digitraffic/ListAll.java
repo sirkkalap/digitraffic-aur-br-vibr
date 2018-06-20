@@ -8,9 +8,9 @@ import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.iterable.S3Objects;
 import com.amazonaws.services.s3.model.S3ObjectSummary;
 
-public class ListAndPublishAll
+public class ListAll
 {
-    public static final Logger log = LoggerFactory.getLogger(ListAndPublishAll.class.getName());
+    public static final Logger log = LoggerFactory.getLogger(ListAll.class.getName());
 
     public static void main( String[] args )
     {

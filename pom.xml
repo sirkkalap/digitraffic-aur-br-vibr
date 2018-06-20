@@ -77,7 +77,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>fi.fta.digitraffic.ListAndPublishAll</mainClass>
+                                    <mainClass>fi.fta.digitraffic.ListAll</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
